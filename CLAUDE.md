@@ -40,5 +40,5 @@ The apps live in a separate repository, `C:\Users\freeb\source\repos\HurPsy`. Re
 
 ## Writing style
 
-- Write plain sentences that non-coders can read, with a subject in every sentence. Comments in configuration files are full sentences too: "This workflow builds the site...".
+- Write plain sentences that non-coders can read, with a subject in every sentence. Avoid sentence fragments and brief labels on the pages: almost always write a complete sentence instead. Comments in configuration files are full sentences too: "This workflow builds the site...".
 - Act only when the user's message has a clear action verb such as "add", "change", "write" or "send". Without one, discuss: observations, options, a recommendation, questions.

@@ -67,14 +67,14 @@ Behind the apps, a shared library called **HurPsyLib** holds these ideas and sav
 - **Variety by design.** Sets and patterns let one design produce many balanced sessions.
 - **Honest timing.** HurPsyRun counts screen refreshes and writes down the actual display times instead of assuming them.
 - **Sealed sessions.** Sessions are built and checked before the lab day, so a run never makes decisions on the fly.
-- **Two languages.** The apps speak English and Turkish, and come with light, dark and metallic themes.
+- **Two interface languages.** The apps can be used with their menus and labels in English or in Turkish, and they come with light, dark and metallic themes.
 
 !!! info "Where HurPsy stands"
     HurPsy is in active development and not released yet. It is being tested with sample experiments, and a group of researchers and the first beta testers will try it next. See [Status and directions](status.md) for what works today and what comes next.
 
 ## Tutorials
 
-Short illustrated pages walk through HurPsyDesign, with pictures taken from the app itself. The first one is ready:
+Here are some short, illustrated pages that will walk you through building an experiment in the HurPsyDesign interface.
 
 - [Tutorial 1: Introduction with a test experiment](tutorial-1-introduction.md), a tour of the app with the ready-made Colored Circles experiment.
 
