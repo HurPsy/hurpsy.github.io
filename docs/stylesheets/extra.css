@@ -1,0 +1,5 @@
+/* This file holds the few style changes that the HurPsy site makes on top of the Material theme. */
+
+.md-typeset .grid.cards > ul > li {
+  border-radius: 0.5rem;
+}
