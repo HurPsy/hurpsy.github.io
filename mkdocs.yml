@@ -32,6 +32,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.details
+  - pymdownx.snippets:
+      base_path: includes
+      check_paths: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -47,3 +50,5 @@ extra_css:
 nav:
   - Home: index.md
   - Status and directions: status.md
+  - Tutorials:
+      - "1. Introduction with a test experiment": tutorial-1-introduction.md

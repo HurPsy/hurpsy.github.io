@@ -74,4 +74,8 @@ Behind the apps, a shared library called **HurPsyLib** holds these ideas and sav
 
 ## Tutorials
 
-Short illustrated pages on the ideas above are on their way. Each page will walk through one idea in HurPsyDesign, step by step, with pictures taken from the app itself.
+Short illustrated pages walk through HurPsyDesign, with pictures taken from the app itself. The first one is ready:
+
+- [Tutorial 1: Introduction with a test experiment](tutorial-1-introduction.md), a tour of the app with the ready-made Colored Circles experiment.
+
+More pages, each on one idea above, are on their way.
