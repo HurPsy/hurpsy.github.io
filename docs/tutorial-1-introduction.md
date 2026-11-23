@@ -2,7 +2,7 @@
 
 --8<-- "version-warning.md"
 
-On this first page we take a tour of HurPsyDesign without building anything ourselves. We open a small ready-made experiment called **Colored Circles** and look at its parts one by one. The later tutorials will build experiments step by step; this one only shows where things are and what they are for.
+On this first page we take a tour of **HurPsyDesign** without building anything ourselves. We open a small ready-made experiment called **Colored Circles** and look at its parts one by one. The later tutorials will build experiments step by step; this one only shows where things are and what they are for.
 
 ## Opening a test experiment
 
@@ -49,7 +49,7 @@ The circles that are *not* the target come from a second set, **notarget**. It i
 
 ## Questionnaire items
 
-Besides pictures and texts, HurPsy can show some familiar controls as **questionnaire items**: text boxes, check boxes, list boxes and buttons. HurPsy treats them as visual stimuli that also let the participant enter data. Colored Circles asks for a name in a text box and for marital status in a check box before the instructions begin.
+Besides pictures and texts, HurPsy can show some familiar controls as **questionnaire items**: text boxes, check boxes, list boxes and buttons. HurPsy treats them as visual stimuli that also let the participant enter data. In this test experiment, we added a text box that asks for a name and a check box that asks for marital status, before the instructions begin. They are included only for demonstration; actual experiments would probably not ask for that kind of information.
 
 ![The Questionnaire items list with the Enter Name text box, the Marital Status check box and seven buttons, and the details of Enter Name](images/tutorial-1/questionnaire-items.png)
 
@@ -63,17 +63,17 @@ HurPsyDesign was born out of necessity, to help some junior researchers who were
 
 On the **Experiment Pattern** tab, the same sliding columns show a block pattern, its trial patterns and the step patterns of the selected trial pattern.
 
-![The Experiment Pattern tab with Block 1 and its fourteen trial patterns, the details of trpattern_single_target_center and the details of its step pattern single_target_center](images/tutorial-1/experiment-pattern.png)
+![The Experiment Pattern tab with Block 1 and its fourteen trial patterns, the trial pattern trpattern_single_target_center with its one step pattern, and the center, left and right cards of the step pattern single_target_center](images/tutorial-1/experiment-pattern.png)
 
 **Block 1** holds fourteen trial patterns. The first seven, from *Enter Name* to *Triple-Target Instructions*, are used once each. The other seven describe the counting trials, one for each way the targets can fall on the three places.
 
-A **trial pattern** is the basis for a given number of real trials in a session. In the middle column we see the trial pattern for a single target in the center:
+A **trial pattern** is the basis for a given number of real trials in a session. In the middle column we see the trial pattern for a single target in the center. Its settings are folded away under **Trial pattern details** in the picture, and a click on that bar opens them:
 
 - **Use count within block** says how many trials the session makes from this pattern; here it is 4.
 - **Shuffle steps** mixes the order of the trial's steps, and **Ends on response** ends the trial as soon as the participant answers.
-- **Accepted responses** are the keys the trial listens to, and **Correct responses** are the ones that count as right. Colored Circles accepts the keys 1, 2 and 3 on both the top row and the number pad; for a single target, 1 on either is correct. HurPsyRun later uses these definitions to record which key the participant pressed and when.
+- **Accepted responses** are the keys the trial listens to, and **Correct responses** are the ones that count as right. Colored Circles accepts the keys 1, 2 and 3 on both the top row and the number pad; for a single target, 1 on either is correct. **HurPsyRun** later uses these definitions to record which key the participant pressed and when.
 
-A **step pattern** is the basis for the single screens of a trial. The right column shows the only step of this trial, which lasts 500 ms. It has one card per locator, and each card says which stimuli appear at that location. The stimuli are not named one by one, though: the **center** card takes the session's single pick from the target set, while the **left** and **right** cards each take an unused member of the notarget set.
+A **step pattern** is the basis for the single screens of a trial. The right column shows the only step of this trial. Its **Step pattern details**, which are also folded in the picture, set the step to last 500 ms. The step has one card per locator, and each card says which stimuli appear at that location. The stimuli are not named one by one, though: the **center** card takes the session's single pick from the target set, while the **left** and **right** cards each take an unused member of the notarget set.
 
 The patterns have more properties than these, and later versions may add new ones or change them. We will meet the others in the shorter tutorials that build experiments by hand.
 
@@ -85,4 +85,4 @@ From the **Session** menu, we can build sessions from the experiment pattern and
 
 HurPsyDesign also checks every session it builds. Here it leaves a note above the trials: the session ends without a last trial in which the participants can wait and call the session manager or supervisor. A note like this does not stop us, but it points to something an experienced designer would want to fix before the lab day.
 
-When we are happy with the sessions, **Save** stores them as files, ready for HurPsySession to check and run on the lab computer.
+When we are happy with the sessions, **Save** stores them as files, ready for **HurPsySession** to check and run on the lab computer.

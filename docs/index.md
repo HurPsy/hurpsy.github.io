@@ -15,19 +15,19 @@ A researcher builds an experiment on screen out of stimuli, screen locations and
 
     ---
 
-    The design app. Here you define what participants will see and where it appears, arrange it into blocks, trials and steps, and decide which responses count as correct. You can preview stimuli and whole sessions on the full screen at their true size, and save the sessions you need.
+    This is the design app. Here you define what participants will see and where it appears, arrange it into blocks, trials and steps, and decide which responses count as correct. You can preview stimuli and whole sessions on the full screen at their true size, and save the sessions you need.
 
 -   :material-clipboard-check-outline:{ .lg .middle } **HurPsySession**
 
     ---
 
-    The lab app. It opens the saved sessions, checks them before a run, keeps track of participants and runs, and collects each trial's results as soon as the trial ends.
+    This is the lab app. It opens the saved sessions, checks them before a run, keeps track of participants and runs, and collects each trial's results as soon as the trial ends.
 
 -   :material-monitor-eye:{ .lg .middle } **HurPsyRun**
 
     ---
 
-    The runner. It shows each step full screen for an exact number of screen refreshes, records the participant's response and its timing, and reports the moments it showed every picture.
+    This is the runner app. It shows each step full screen for an exact number of screen refreshes, records the participant's response and its timing, and reports the moments it showed every picture.
 
 </div>
 

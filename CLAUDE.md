@@ -41,4 +41,5 @@ The apps live in a separate repository, `C:\Users\freeb\source\repos\HurPsy`. Re
 ## Writing style
 
 - Write plain sentences that non-coders can read, with a subject in every sentence. Avoid sentence fragments and brief labels on the pages: almost always write a complete sentence instead. Comments in configuration files are full sentences too: "This workflow builds the site...".
+- Bold a project name (HurPsyDesign, HurPsySession, HurPsyRun, HurPsyLib) only the first time a page introduces it, and write it plain after that. Bold is otherwise kept for the app's own labels, such as **Stimulus Sets**, and for terms being defined. When the user's own text bolds a project name past its first mention, or leaves the first mention plain, point it out and correct it.
 - Act only when the user's message has a clear action verb such as "add", "change", "write" or "send". Without one, discuss: observations, options, a recommendation, questions.

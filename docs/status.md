@@ -11,13 +11,13 @@ This page says what HurPsy can do today and where it is heading. It is updated a
 
 ## Next steps
 
-- Joining HurPsySession and HurPsyRun so that a whole run, with its results file, happens from one place.
-- Checks that a session must pass before it may be run.
-- Questionnaire screens, such as consent and demographic forms, shown inside a session.
-- English tutorial pages on each building block, and Turkish tutorial videos for the first testers.
+- HurPsySession and HurPsyRun will be joined so that a whole run, with its results file, happens from one place.
+- Every session will have to pass a set of checks before it may be run.
+- Questionnaire screens, such as consent and demographic forms, will be shown inside a session.
+- English tutorial pages will cover each building block, and Turkish tutorial videos will help the first testers.
 
 ## Further on
 
-- Backgrounds chosen for each step.
-- Stimuli that switch on and off during a step.
-- A simulated participant, for seeing what the result files would and would not tell a researcher before real data is collected.
+- Each step will be able to have a background of its own.
+- Stimuli will be able to switch on and off during a step.
+- A simulated participant will show what the result files would and would not tell a researcher, before any real data is collected.
