@@ -63,17 +63,17 @@ HurPsyDesign was born out of necessity, to help some junior researchers who were
 
 On the **Experiment Pattern** tab, the same sliding columns show a block pattern, its trial patterns and the step patterns of the selected trial pattern.
 
-![The Experiment Pattern tab with Block 1 and its fourteen trial patterns, the trial pattern trpattern_single_target_center with its one step pattern, and the center, left and right cards of the step pattern single_target_center](images/tutorial-1/experiment-pattern.png)
+![The Experiment Pattern tab with Block 1 and its fourteen trial patterns, the details of trpattern_single_target_center and the details of its step pattern single_target_center](images/tutorial-1/experiment-pattern.png)
 
 **Block 1** holds fourteen trial patterns. The first seven, from *Enter Name* to *Triple-Target Instructions*, are used once each. The other seven describe the counting trials, one for each way the targets can fall on the three places.
 
-A **trial pattern** is the basis for a given number of real trials in a session. In the middle column we see the trial pattern for a single target in the center. Its settings are folded away under **Trial pattern details** in the picture, and a click on that bar opens them:
+A **trial pattern** is the basis for a given number of real trials in a session. In the middle column we see the trial pattern for a single target in the center:
 
 - **Use count within block** says how many trials the session makes from this pattern; here it is 4.
 - **Shuffle steps** mixes the order of the trial's steps, and **Ends on response** ends the trial as soon as the participant answers.
 - **Accepted responses** are the keys the trial listens to, and **Correct responses** are the ones that count as right. Colored Circles accepts the keys 1, 2 and 3 on both the top row and the number pad; for a single target, 1 on either is correct. **HurPsyRun** later uses these definitions to record which key the participant pressed and when.
 
-A **step pattern** is the basis for the single screens of a trial. The right column shows the only step of this trial. Its **Step pattern details**, which are also folded in the picture, set the step to last 500 ms. The step has one card per locator, and each card says which stimuli appear at that location. The stimuli are not named one by one, though: the **center** card takes the session's single pick from the target set, while the **left** and **right** cards each take an unused member of the notarget set.
+A **step pattern** is the basis for the single screens of a trial. The right column shows the only step of this trial, which lasts 500 ms. It has one card per locator, and each card says which stimuli appear at that location. The stimuli are not named one by one, though: the **center** card takes the session's single pick from the target set, while the **left** and **right** cards each take an unused member of the notarget set.
 
 The patterns have more properties than these, and later versions may add new ones or change them. We will meet the others in the shorter tutorials that build experiments by hand.
 
