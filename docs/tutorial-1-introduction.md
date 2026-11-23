@@ -59,8 +59,6 @@ The buttons in the list are added automatically, so that the participants can mo
 
 HurPsyDesign does not build a session directly. It helps us build an **experiment pattern**: a collection of patterns that describes what the sessions should contain. The actual sessions are made from it later, and every random choice is made at that moment.
 
-HurPsyDesign was born out of necessity, to help some junior researchers who were unfamiliar with, or not yet efficient in, the widely used experiment tools such as PsychoPy, OpenSesame, E-Prime, Presentation, Inquisit and jsPsych. Its aim is an easy visual interface in which an experiment is designed by picking and arranging its parts.
-
 On the **Experiment Pattern** tab, the same sliding columns show a block pattern, its trial patterns and the step patterns of the selected trial pattern.
 
 ![The Experiment Pattern tab with Block 1 and its fourteen trial patterns, the details of trpattern_single_target_center and the details of its step pattern single_target_center](images/tutorial-1/experiment-pattern.png)

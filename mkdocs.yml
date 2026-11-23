@@ -52,3 +52,4 @@ nav:
   - Status and directions: status.md
   - Tutorials:
       - "1. Introduction with a test experiment": tutorial-1-introduction.md
+      - "2. Adding stimuli": tutorial-2-adding-stimuli.md

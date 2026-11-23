@@ -61,6 +61,12 @@ An experiment in HurPsy is made of a small number of ideas. Each of them will ge
 
 Behind the apps, a shared library called **HurPsyLib** holds these ideas and saves them as plain JSON files. A later series of pages will introduce its main classes for readers who want to see how the model works.
 
+## How HurPsy began
+
+This family of projects started with HurPsyLib, the class library for building experiments in code. This library was the result of multiple programs written for some junior researchers' experiments.
+
+Then came HurPsyDesign, an easy-to-use design interface intended to help the researchers who were unfamiliar with, or not yet efficient in, the widely used experiment tools such as PsychoPy, OpenSesame, E-Prime, Presentation, Inquisit and jsPsych.
+
 ## Why HurPsy
 
 - **No code.** Experiments are built by picking and arranging, not by programming.
@@ -77,5 +83,6 @@ Behind the apps, a shared library called **HurPsyLib** holds these ideas and sav
 Here are some short, illustrated pages that will walk you through building an experiment in the HurPsyDesign interface.
 
 - [Tutorial 1: Introduction with a test experiment](tutorial-1-introduction.md), a tour of the app with the ready-made Colored Circles experiment.
+- [Tutorial 2: Adding stimuli](tutorial-2-adding-stimuli.md), which adds the six colored circles as image stimuli and gives them all the same size.
 
 More pages, each on one idea above, are on their way.
