@@ -5,8 +5,6 @@ copyright: HurPsy, by Hürol Aslan
 
 theme:
   name: material
-  # This folder holds the site's own versions of a few theme files.
-  custom_dir: overrides
   language: en
   features:
     - navigation.instant

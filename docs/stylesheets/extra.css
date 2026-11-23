@@ -3,3 +3,8 @@
 .md-typeset .grid.cards > ul > li {
   border-radius: 0.5rem;
 }
+
+/* This rule hides the right-hand table of contents on every page, so that the page content gets its width. The headings keep their anchors, so links to a heading still work. */
+.md-sidebar--secondary:not([hidden]) {
+  display: none;
+}
