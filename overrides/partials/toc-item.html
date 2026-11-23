@@ -1,0 +1,43 @@
+{#-
+  This file replaces one item of the Material theme's table of contents, the
+  "On this page" bar on the right. It works like the theme's own file, with
+  one addition: on the home page, the "Tutorials" entry also lists the
+  tutorial pages from the Tutorials section of the nav in mkdocs.yml, so that
+  a visitor can open a tutorial right away.
+-#}
+<li class="md-nav__item">
+  <a href="{{ toc_item.url }}" class="md-nav__link">
+    <span class="md-ellipsis">
+      {% if toc_item.typeset %}
+        <span class="md-typeset">
+          {{ toc_item.typeset.title }}
+        </span>
+      {% else %}
+        {{ toc_item.title }}
+      {% endif %}
+    </span>
+  </a>
+  {% if toc_item.children %}
+    <nav class="md-nav" aria-label="{{ toc_item.title | striptags | e }}">
+      <ul class="md-nav__list">
+        {% for toc_item in toc_item.children %}
+          {% include "partials/toc-item.html" %}
+        {% endfor %}
+      </ul>
+    </nav>
+  {% elif page.is_homepage and toc_item.title == "Tutorials" %}
+    {% for section in nav if section.title == "Tutorials" and section.children %}
+      <nav class="md-nav" aria-label="Tutorial pages">
+        <ul class="md-nav__list">
+          {% for tutorial in section.children %}
+            <li class="md-nav__item">
+              <a href="{{ tutorial.url | url }}" class="md-nav__link">
+                <span class="md-ellipsis">{{ tutorial.title }}</span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endfor %}
+  {% endif %}
+</li>
