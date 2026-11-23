@@ -20,7 +20,7 @@ When we click **OK**, the save dialog opens. We save our hand-built experiment a
 
 Now HurPsyDesign lets us pick the image files. We select all six circles and click **Open**.
 
-![The Add image stimuli dialog with the six circle images, from blue.png to yellow.png, all selected](images/tutorial-2/choosing-image-stimuli.png)
+![The file dialog with the six circle images, from blue.png to yellow.png, all selected, and the Open button](images/tutorial-2/choosing-image-stimuli.png)
 
 HurPsyDesign adds one image stimulus for each file and names it after the file. Because the circles are already in the experiment's folder, HurPsyDesign simply uses them where they are. Had we picked images from another folder, it would have copied them into this one first. A later tutorial will start entirely from scratch and show that case.
 
