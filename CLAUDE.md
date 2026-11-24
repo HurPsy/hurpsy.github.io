@@ -13,9 +13,21 @@ These rules apply to every Claude session in this repository. The repository hol
 
 The apps live in a separate repository, `C:\Users\freeb\source\repos\HurPsy`. Read it to check facts (property names, menu items, how a test experiment is built), but never change anything there from this repository. Its own `CLAUDE.md` describes the projects.
 
+### HurPsy's memory
+
+Before writing or revising a tutorial page, read the HurPsy environment's memory index, `C:\Users\freeb\.claude\projects\C--Users-freeb-source-repos-HurPsy\memory\MEMORY.md`, and the notes on the page's feature, even when the user doesn't ask for it.
+The memory is a map of the user's past decisions, and some notes are out of date or record ideas that were dropped.
+What a page says comes from the HurPsy repository itself: its code, its checklist and settings files, its `Plans` folder and its commit messages.
+When the page plan names a version, read the code at that version's tag.
+Pages teach the general concepts, not the exact machinery behind every feature, and the version warning already says that the apps change, so don't fact-check every detail against the latest code.
+When a memory note and the code disagree in a way that would change a concept the page explains, tell the user before writing it into a page.
+Never change HurPsy's memory from this repository.
+
 ## Tutorial pages
 
 - **The user's page plan comes first:** the user brings a page plan, usually a .docx in `C:\Users\freeb\Documents\HurPsyArchive` with notes and the user's own screenshots. Read it with `pandoc` and take the pictures out with `pandoc --extract-media`. Write the page from the plan, in the order of its notes.
+- **A draft in chat comes before the page:** before writing the `.md` file, show the user the whole page as a draft in chat, in the order of the plan, with a placeholder such as *[picture: stimulus-set.png]* where each screenshot goes. Under the draft, list only the places where the code or HurPsy's memory would change a concept the plan explains. Write the page file, copy the pictures and update `mkdocs.yml` and `docs/index.md` only after the user has gone through the draft.
+- **The user's corrections go into memory:** when the user corrects the draft, save in this environment's memory what was learned about a feature: where the reading of the code was wrong, how the user wants the feature explained, and what a page should leave out for now. Date each note and name the version it applies to. Don't save facts the code already records, such as property names or menu items.
 - **Pictures are the user's screenshots.** There is no tutorial mode or picture script. Later tutorials will be shorter, with fewer pictures.
 - **Style:** a friendly "we" voice, a paragraph or two per point, and the picture right after the text it illustrates. Every picture gets alt text that says what it shows. Use the app's own labels in bold (**Stimulus Sets**, **Use count within block**).
 - **The version warning:** every tutorial page starts, right under its title, with the line `--8<-- "version-warning.md"`, which pulls in `includes/version-warning.md`. Change the wording only in that file.
