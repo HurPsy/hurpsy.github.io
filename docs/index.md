@@ -84,5 +84,6 @@ Here are some short, illustrated pages that will walk you through building an ex
 
 - [Tutorial 1: Introduction with a test experiment](tutorial-1-introduction.md), a tour of the app with the ready-made Colored Circles experiment.
 - [Tutorial 2: Adding stimuli](tutorial-2-adding-stimuli.md), which adds the six colored circles as image stimuli and gives them all the same size.
+- [Tutorial 3: Adding locators](tutorial-3-adding-locators.md), which adds the three point locators that place the circles on the left, in the middle and on the right.
 
 More pages, each on one idea above, are on their way.
