@@ -8,3 +8,14 @@
 .md-sidebar--secondary:not([hidden]) {
   display: none;
 }
+
+/* These rules keep the left navigation pane folded away on the home page of a wide screen, whose title carries the home-page class. The menu button at the left of the header stays visible there, and clicking it opens or closes the pane. Narrow screens keep the theme's own sliding menu. */
+@media screen and (min-width: 76.25em) {
+  body:has(h1.home-page) .md-header__button[for="__drawer"] {
+    display: inline-block;
+  }
+
+  body:has(h1.home-page) #__drawer:not(:checked) ~ .md-container .md-sidebar--primary {
+    display: none;
+  }
+}

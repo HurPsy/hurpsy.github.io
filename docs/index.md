@@ -1,9 +1,4 @@
----
-hide:
-  - navigation
----
-
-# HurPsy
+# HurPsy { .home-page }
 
 **HurPsy is a family of three desktop apps for designing and running computerized psychology experiments, without writing code.**
 
