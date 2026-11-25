@@ -31,6 +31,7 @@ Never change HurPsy's memory from this repository.
 - **Pictures are the user's screenshots.** There is no tutorial mode or picture script. Later tutorials will be shorter, with fewer pictures.
 - **Style:** a friendly "we" voice, a paragraph or two per point, and the picture right after the text it illustrates. Every picture gets alt text that says what it shows. Use the app's own labels in bold (**Stimulus Sets**, **Use count within block**).
 - **The version warning:** every tutorial page starts, right under its title, with the line `--8<-- "version-warning.md"`, which pulls in `includes/version-warning.md`. Change the wording only in that file.
+- **Boxes:** hints and side explanations go in a blue `info` box with a short title, as in `!!! info "One pattern, many trials"`. The version warning is the only `warning` box. Keep the boxes consistent, and don't use other kinds, such as `tip`, unless the user asks.
 - **File names:** a page is `docs/tutorial-N-short-name.md`, and its pictures go in `docs/images/tutorial-N/`, named after what they show (`stimulus-set.png`, not `image7.png`).
 - **Navigation:** every new page gets a line under `nav:` in `mkdocs.yml`. Tutorial pages go under `Tutorials`, as `"N. Title": tutorial-N-short-name.md`. When a tutorial is added, also update the Tutorials section of `docs/index.md`.
 - **Status page:** `docs/status.md` says what works today and what comes next. Update it only when the user asks.
