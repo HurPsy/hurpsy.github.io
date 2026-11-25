@@ -50,17 +50,14 @@ so their responses depend more on the patterns used to build the sessions.
 Next we need a special set that holds all the image stimuli
 other than the one selected as the target for the whole session.
 This requires creating an **exclusion set** attached to the target set.
-The button next to the name of the target set adds it,
-and as its tooltip says, a set can have one exclusion set at most.
-
-![The target set's details with the tooltip of the exclusion set button: Add the set of the members of this set that are not picked in a session; a set has one at most](images/tutorial-4/attaching-exclusion-set.png)
-
+We add it with the middle button on the target set's row, the one with a red cross,
+and a set can have one exclusion set at most.
 We name the new set **notarget**.
 We don't put any stimuli in it ourselves.
 Its association with the target set lets HurPsyDesign know which image stimuli to put in it:
 once the target is picked for a session, notarget holds all the other images.
 
-![The notarget set under the target set in the Stimulus Sets column, with its Pick order set to Random](images/tutorial-4/notarget-set.png)
+![The notarget set under the target set in the Stimulus Sets column, the dimmed exclusion set button with a red cross on the target set's row, and the Pick order of notarget set to Random](images/tutorial-4/notarget-set.png)
 
 The **Pick order** of notarget is **Random**,
 so each spot that takes a non-target gets one of the other circles at random.
@@ -83,6 +80,21 @@ In the column of the trial pattern, we add a step pattern and give it the same n
 The new step pattern shows nothing yet, and its own column opens on the right.
 
 ![The single-target-left trial pattern with one step pattern, the tooltip "Add a step pattern to the end of this trial pattern", and the empty step pattern column](images/tutorial-4/adding-step-pattern.png)
+
+!!! info "One pattern, many trials"
+
+    A session will have more than one trial based on this trial pattern.
+    All of them will show the single target image on the left,
+    but with different combinations of the images that are not targets.
+    Later there will also be other trial patterns,
+    with steps that pair the target with one, two and three locators.
+
+    The good thing about defining such patterns is that we need only one definition
+    for all the session trials based on one particular combination.
+    Names that tell which combination each pattern represents
+    make the whole experiment pattern easy to understand.
+    They will also prove useful later,
+    when we decide which key responses each pattern will accept as correct.
 
 ## Pairing sets with locators
 
