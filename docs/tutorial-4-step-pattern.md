@@ -119,7 +119,12 @@ and we will come back to that in a later tutorial.
 
 ![The Sessions of Test-1 window with Session 1: a note about the missing end-of-session trial, and a tree of Block 1, Trial 1 single-target-left and Step 1 with green, purple and orange](images/tutorial-4/building-a-session.png)
 
-With **Click run**, we can see the step as a participant would see it,
+With **Click run**, we can see a step as a participant would see it,
 with the target circle on the left and two non-target circles in the middle and on the right.
+This picture comes from another session,
+and that is how randomization works in building sessions.
+Every time HurPsyDesign builds a session, it makes its own random picks:
+another target for the whole session,
+and other non-targets for the spots left open around it.
 
 ![A red circle on the left, a purple circle in the middle and a green circle on the right, on a gray background](images/tutorial-4/previewing-the-step.png)
