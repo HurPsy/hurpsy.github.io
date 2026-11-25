@@ -130,5 +130,8 @@ in the HurPsyDesign interface.
 - [Tutorial 3: Adding locators](tutorial-3-adding-locators.md),
   which adds the three point locators that place the circles on the left,
   in the middle and on the right.
+- [Tutorial 4: Building a step pattern](tutorial-4-step-pattern.md),
+  which defines the target and non-target sets
+  and pairs them with the three locators in the first step pattern.
 
 More pages, each on one idea above, are on their way.
