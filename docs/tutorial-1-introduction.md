@@ -59,12 +59,14 @@ when the sessions are prepared and run.
 
 ## Sets: letting the session choose
 
-An experiment designer usually will not, and often should not,
-tie a particular stimulus to a particular locator.
-If the red circle always appeared on the left,
-the participants could learn that instead of doing the task.
-So we let the session pick the stimuli
-from named groups called **stimulus sets**.
+An experiment will ask the participant to perform a task,
+like keeping track or counting of a visual stimulus
+designated as the target.
+In HurPsyDesign a target stimulus will be picked
+from a **stimulus set**.
+That way, different participants will not all see the same target
+and their performance will not depend on a particular stimulus
+being the target all the time.
 
 ![The Stimulus Sets list with the target set and its details: one stimulus to pick, renewed once per session, in random order, from the six colored circles](images/tutorial-1/stimulus-set.png)
 
