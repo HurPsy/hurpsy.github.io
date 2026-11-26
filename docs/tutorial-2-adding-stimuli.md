@@ -2,19 +2,24 @@
 
 --8<-- "version-warning.md"
 
+On this page, we will tahe the first step towards building
+the test experiment **Colored Circles**
+that we toured on the first tutorial.
+e will add the colored circles as the image stimuli. 
+
 The **HurPsyDesign** interface starts out with an empty experiment
 that has a suggested temporary name and an empty description.
 The first step will be to type in a name and a description for the experiment
 by double-clicking the relevant text boxes at the top of the window.
 Here we name our experiment "Test-1"
-and describe it as the Colored Circles test experiment
-built on the designer interface,
-because on these pages we will build by hand
-the experiment that we toured in the first tutorial.
+and describe it as the "Colored Circles experiment
+built on the designer interface",
+which does describe what we are doing.
 
 ![The HurPsyDesign window with the name Test-1 and the description being typed in, and a tooltip saying "Double-click to edit."](images/tutorial-2/name-and-description.png)
 
-Next we want to add the six colored circles as image stimuli.
+Next we want to add the colored circles images
+that will serve as the visual stimuli.
 We click **Stimuli** in the **Item Definitions** column,
 open the list next to the plus button at the top of the **Stimuli** column,
 and choose **Image stimulus**.
@@ -70,7 +75,10 @@ while **Cancel** puts back the old values of all the ticked stimuli.
 
 ![The Copy to others panel with Width and Height ticked, the five other stimuli ticked in the list, and the tooltip of the Done button](images/tutorial-2/properties-copied-to-others.png)
 
-Finally, we should not forget to save the experiment
+That's all we did for this step.
+To make sure these changes will not be lost
+before we work on the next step,
+we now save the experiment
 with **Save** in the **File** menu.
 
 ![The File menu with Save highlighted](images/tutorial-2/dont-forget-to-save.png)
