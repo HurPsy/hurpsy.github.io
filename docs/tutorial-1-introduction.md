@@ -9,24 +9,7 @@ and look at its parts one by one.
 The later tutorials will build experiments step by step; this one only shows
 where things are and what they are for.
 
-## Opening a test experiment
-
-HurPsyDesign comes with a few test experiments.
-We find them in the **File** menu, under **TestExperiment**,
-and we pick **Colored Circles**.
-
-![The File menu with the TestExperiment submenu open and Colored Circles highlighted](images/tutorial-1/open-test-experiment.png)
-
-A test experiment is one that was built entirely in code.
-It uses the same building blocks that HurPsyDesign shows on screen,
-because both rest on **HurPsyLib**,
-the library that holds HurPsy's model of an experiment.
-In a sense, HurPsyLib is the programming interface behind HurPsyDesign:
-whatever we can click together in the app can also be written in code,
-and the other way round.
-The test experiments let us see a finished design before we make our own.
-
-Colored Circles is a mock experiment.
+Colored Circles is a mock experiment built by code.
 In each trial, three colored circles appear side by side for half a second.
 One color is the participant's target color for the whole session,
 and the participant presses **1**, **2** or **3**
@@ -85,42 +68,48 @@ from named groups called **stimulus sets**.
 
 ![The Stimulus Sets list with the target set and its details: one stimulus to pick, renewed once per session, in random order, from the six colored circles](images/tutorial-1/stimulus-set.png)
 
-The set called **target** holds the six colored circles.
-It picks one of them, in random order,
-and renews its pick only once per **session**.
-That is how each participant gets one target color
-that stays the same through the whole run,
-while different participants may get different colors.
+Once we add some stimulus objects to an experiment pattern,
+the ones of the same type automatically form parent sets
+named "All images", "All HTML pages", etc.
+We can then define a selection set as a subset of that a parent set.
+
+In this case, we defined our "target" set under the parent set "All images".
+Thus, it came with all the image stimuli available as pick choices.
+This set will pick one of those choices at the start of every session;
+*well, actually, a specialized component will pick one from this set
+when it starts building a session*.
+In actual runs built from these randomized sessions,
+one participant will be responding how many copies of red circles are on every step,
+while another will be doing the same for blue circles, and so on.
 
 The circles that are *not* the target come from a second set, **notarget**.
 It is an **exclusion set**: it belongs to the target set
 and holds whatever the target set did not pick.
 Each time the session needs a non-target circle,
-notarget hands out an unused member in random order,
-and it starts over when it runs out.
+notarget hands out one picked randomly.
 
-![The notarget exclusion set under the target set, picking in random order, each once, and refreshing when it runs out](images/tutorial-1/exclusion-set.png)
+![The notarget exclusion set under the target set, picked in random order](images/tutorial-1/exclusion-set.png)
 
 ## Questionnaire items
 
-Besides pictures and texts, HurPsy can show some familiar controls as
+In addition to pictures and texts, HurPsy can show some familiar controls as
 **questionnaire items**: text boxes, check boxes, list boxes and buttons.
 HurPsy treats them as visual stimuli that also let the participant enter data.
 In this test experiment, we added a text box that asks for a name
 and a check box that asks for marital status, before the instructions begin.
-They are included only for demonstration;
-actual experiments would probably not ask for that kind of information.
+*They are included only for demonstration;
+actual experiments would probably not ask for that kind of information*.
 
 ![The Questionnaire items list with the Enter Name text box, the Marital Status check box and seven buttons, and the details of Enter Name](images/tutorial-1/questionnaire-items.png)
 
-The buttons in the list are added automatically,
-so that the participants can move on from one questionnaire screen to the next.
+*The buttons in the list are added automatically,
+so that the participants can move on from one questionnaire screen to the next.*
 
 ## The experiment pattern
 
-HurPsyDesign does not build a session directly.
+On HurPsyDesign we do not build a session directly;
 It helps us build an **experiment pattern**:
-a collection of patterns that describes what the sessions should contain.
+rather, we build a pattern that describes what a sessions should contain.
 The actual sessions are made from it later,
 and every random choice is made at that moment.
 

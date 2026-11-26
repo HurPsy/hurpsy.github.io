@@ -105,9 +105,9 @@ such as PsychoPy, OpenSesame, E-Prime, Presentation, Inquisit and jsPsych.
   and writes down the actual display times instead of assuming them.
 - **Sealed sessions.** Sessions are built and checked before the lab day,
   so a run never makes decisions on the fly.
-- **Two interface languages.** The apps can be used
-  with their menus and labels in English or in Turkish,
-  and they come with light, dark and metallic themes.
+- **Customizable interface.** HurPsyDesign and HurPsySession let users change the interface language and the overall theme.
+  Only English and Turkish are available for now,
+  but other language choices will be added in time.
 
 !!! info "Where HurPsy stands"
     HurPsy is in active development and not released yet.
