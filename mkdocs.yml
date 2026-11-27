@@ -54,4 +54,4 @@ nav:
       - "1. Introduction with a test experiment": tutorial-1-introduction.md
       - "2. Adding stimuli": tutorial-2-adding-stimuli.md
       - "3. Adding locators": tutorial-3-adding-locators.md
-      - "4. Building the experiment pattern": tutorial-4-experiment-pattern-1.md
+      - "4. Building the experiment pattern - Part 1": tutorial-4-experiment-pattern-1.md
