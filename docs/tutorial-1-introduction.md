@@ -53,7 +53,8 @@ The point (0, 0) is the middle of the screen, X grows to the right
 and Y grows upward, as on a sheet of graph paper.
 All locations and sizes are given in **millimeters**, never in pixels,
 so a 20 mm circle that sits 0 mm from the middle is the same size
-and in the same place on any lab screen.
+and in the same place on any lab screen,
+*provided that screen calibration are done properly*.
 The apps turn millimeters into the pixels of the screen at hand only
 when the sessions are prepared and run.
 
@@ -81,8 +82,9 @@ This set will pick one of those choices at the start of every session;
 *well, actually, a specialized component will pick one from this set
 when it starts building a session*.
 In actual runs built from these randomized sessions,
-one participant will be responding how many copies of red circles are on every step,
-while another will be doing the same for blue circles, and so on.
+one participant will be responding how many copies of the red circles
+are on every step, while another will be doing the same
+for the blue circle, and so on.
 
 The circles that are *not* the target come from a second set, **notarget**.
 It is an **exclusion set**: it belongs to the target set
@@ -94,34 +96,41 @@ notarget hands out one picked randomly.
 
 ## Questionnaire items
 
-In addition to pictures and texts, HurPsy can show some familiar controls as
-**questionnaire items**: text boxes, check boxes, list boxes and buttons.
-HurPsy treats them as visual stimuli that also let the participant enter data.
+In addition to pictures and texts, HurPsy can show
+some familiar controls as **questionnaire items**:
+text boxes, check boxes, list boxes and buttons.
+HurPsy treats them as visual stimuli,
+which also let a participant enter data.
 In this test experiment, we added a text box that asks for a name
-and a check box that asks for marital status, before the instructions begin.
+and a check box that asks for marital status,
+before the instructions begin.
 *They are included only for demonstration;
-actual experiments would probably not ask for that kind of information*.
+actual experiments would probably not ask
+for that kind of information*.
 
 ![The Questionnaire items list with the Enter Name text box, the Marital Status check box and seven buttons, and the details of Enter Name](images/tutorial-1/questionnaire-items.png)
 
 *The buttons in the list are added automatically,
-so that the participants can move on from one questionnaire screen to the next.*
+so that the participants can move on from
+one questionnaire screen to the next.*
 
 ## The experiment pattern
 
 On HurPsyDesign we do not build a session directly;
-It helps us build an **experiment pattern**:
-rather, we build a pattern that describes what a sessions should contain.
+instead, we build an **experiment pattern**,
+a description of what a sessions should contain.
 The actual sessions are made from it later,
-and every random choice is made at that moment.
+following the experiment designer's decisions
+on what will be picked from the sets and when.
 
-On the **Experiment Pattern** tab, the same sliding columns show
+On the **Experiment Pattern** tab,
+we see the sliding columns that show
 a block pattern, its trial patterns
 and the step patterns of the selected trial pattern.
 
 ![The Experiment Pattern tab with Block 1 and its fourteen trial patterns, the details of trpattern_single_target_center and the details of its step pattern single_target_center](images/tutorial-1/experiment-pattern.png)
 
-**Block 1** holds fourteen trial patterns.
+**Block 1** currently holds fourteen trial patterns.
 The first seven, from *Enter Name* to *Triple-Target Instructions*,
 are used once each.
 The other seven describe the counting trials,
