@@ -18,7 +18,7 @@ one on the left, one in the middle and one on the right.
 
 ## Opening the experiment again
 
-We saved our experiment as "Test-1.json" at the end of the second tutorial,
+We saved our experiment as "Test-1.hurpsyexp" at the end of the second tutorial,
 so we can pick up where we left off.
 The quickest way is **Open Recent** in the **File** menu,
 which lists the experiment files that we opened lately,

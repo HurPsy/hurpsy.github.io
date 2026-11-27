@@ -36,8 +36,9 @@ always stays together with its stimuli.
 ![A message asking us to save the experiment first, because the folder we save it in becomes the working folder and stimulus files are copied into it](images/tutorial-2/prompt-save-experiment.png)
 
 When we click **OK**, the save dialog opens.
-We save our hand-built experiment as "Test-1.json"
-in the same folder as the file of the Colored Circles test experiment,
+We save our hand-built experiment as "Test-1.hurpsyexp"
+in the same folder as the file of the
+Colored Circles test experiment,
 because the circle images are already there.
 
 ![The Save experiment dialog in the exp1 folder, next to Colored Circles.json, with Test-1.json as the file name](images/tutorial-2/saving-experiment.png)
@@ -47,14 +48,17 @@ We select all six circles and click **Open**.
 
 ![The file dialog with the six circle images, from blue.png to yellow.png, all selected, and the Open button](images/tutorial-2/choosing-image-stimuli.png)
 
-HurPsyDesign adds one image stimulus for each file and names it after the file.
+HurPsyDesign adds one image stimulus for each file
+and names it after the file.
 Because the circles are already in the experiment's folder,
 HurPsyDesign simply uses them where they are.
 Had we picked images from another folder,
 it would have copied them into this one first.
-A later tutorial will start entirely from scratch and show that case.
+A later tutorial will start entirely from scratch
+and show that case.
 
-The six new stimuli all need the same size, 20 mm wide and 20 mm high.
+The six new stimuli all need the same size,
+20 mm wide and 20 mm high.
 We click one of them, here **yellow**,
 and set its **Width (mm)** and **Height (mm)** to 20.
 Rather than repeating these changes in the other five stimuli,
@@ -64,14 +68,17 @@ as its tooltip explains.
 
 ![The details of the yellow image stimulus with a width and height of 20 mm, and the tooltip of the copy button](images/tutorial-2/setting-properties-to-be-copied.png)
 
-When we click the copy button, a **Copy to others** panel opens above the list.
-We tick the values that we want to copy, here **Width** and **Height**,
+When we click the copy button, a **Copy to others** panel
+opens above the list.
+We tick the values that we want to copy,
+here **Width** and **Height**,
 and then click each stimulus that should take them.
 Each stimulus that we click gets a tick,
 and the panel counts the stimuli that took the values.
 If we click a ticked stimulus again, its change is undone.
 **Done** keeps the new values and ends copying,
-while **Cancel** puts back the old values of all the ticked stimuli.
+while **Cancel** puts back the old values of
+all the ticked stimuli.
 
 ![The Copy to others panel with Width and Height ticked, the five other stimuli ticked in the list, and the tooltip of the Done button](images/tutorial-2/properties-copied-to-others.png)
 
