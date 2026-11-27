@@ -125,13 +125,17 @@ in the HurPsyDesign interface.
 - [Tutorial 1: Introduction with a test experiment](tutorial-1-introduction.md),
   a tour of the app with the ready-made Colored Circles experiment.
 - [Tutorial 2: Adding stimuli](tutorial-2-adding-stimuli.md),
-  which adds the six colored circles as image stimuli
-  and gives them all the same size.
+  starting to build Colored circles experiment on the designer interface
+  by adding the circle images as stimuli.
 - [Tutorial 3: Adding locators](tutorial-3-adding-locators.md),
-  which adds the three point locators that place the circles on the left,
-  in the middle and on the right.
+  continuing on building Colored circles experiment
+  with the adding of locators.
 - [Tutorial 4: Building the experiment pattern - Part 1](tutorial-4-experiment-pattern-1.md),
-  which defines the target and non-target sets
-  and pairs them with the three locators in the first step pattern.
+  starting to build the experiment pattern of Colored circles
+  by adding stimulus sets and constructing the first step pattern
+  with locator-stimulus pairs.
+- [Tutorial 5: Building the experiment pattern - Part 2](tutorial-5-experiment-pattern-2.md),
+  continuing to build the experiment pattern by duplicating and modifying
+  more trial patterns.
 
 More pages, each on one idea above, are on their way.
