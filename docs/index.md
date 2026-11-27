@@ -130,7 +130,7 @@ in the HurPsyDesign interface.
 - [Tutorial 3: Adding locators](tutorial-3-adding-locators.md),
   which adds the three point locators that place the circles on the left,
   in the middle and on the right.
-- [Tutorial 4: Building the experiment pattern](tutorial-4-experiment-pattern-1.md),
+- [Tutorial 4: Building the experiment pattern - Part 1](tutorial-4-experiment-pattern-1.md),
   which defines the target and non-target sets
   and pairs them with the three locators in the first step pattern.
 
