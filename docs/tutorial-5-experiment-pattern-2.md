@@ -38,7 +38,7 @@ paired with point locator right from notarget to target:
 ![](images/tutorial-5/modifying-new-step-patterns.png)
 
 We keep using the cloning feature to also produce
-trial 9and step) patterns displaying two or three targets,
+trial (and step) patterns displaying two or three targets,
 while being extra careful with names and locator-stimulus pairs.
 
 We then decide on use counts for the trial patterns:

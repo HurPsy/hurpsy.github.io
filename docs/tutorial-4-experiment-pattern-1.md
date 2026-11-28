@@ -8,10 +8,9 @@ in the **HurPsyDesign** interface.
 We already have the six colored circle images
 from the second tutorial
 and the three point locators from the third.
-The list of validation problems still greets us
-when we open the file,
-but we covered it in the third tutorial,
-so we can close it and move on.
+When we open this file from the list of recent files,
+the list of validation problems greets us again.
+Again, we will ignore it and move on.
 
 We are now ready to start building the experiment pattern,
 whose options and distribution patterns dictate
@@ -32,20 +31,12 @@ one colored circle at each of the three point locations.
 
 We could build a step pattern by pairing
 each point locator with a specific colored circle,
-but then we would actually be building
-all the possible session steps, one by one.
-In experiment design, an experiment is
-normally a description of how a session should be built,
-with rules on how stimuli and locators are combined.
-A good way to set up those rules is to start with sets
-from which objects are selected at random,
-or according to some rules.
-The selections based on the rules establish the session steps,
-and the patterns build upward from the steps
-all the way to the session itself.
-On this page we get to define
-the first of these selection sets,
-a **stimulus set**.
+but then we would be building
+all possible session steps, one by one.
+Instead, we should pair the locators with **stimulus set**s.
+Then one step pattern can describe 2,4,10, or even more
+lineups of circles, all built with random selections
+from the sets we define.
 
 ## The target set
 
