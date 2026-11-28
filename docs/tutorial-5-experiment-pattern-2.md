@@ -10,7 +10,7 @@ We will now add more trial patterns to the experiment pattern.
 Again, we will ignore the list of validation problems
 that now complains about the lack of some special trials
 and some unset property values.
-*We promise, we will eventuallu add them, and fix them*.
+*We promise, we will eventually add them, and fix them*.
 
 ![](images/tutorial-5/validation-errors-persist.png)
 

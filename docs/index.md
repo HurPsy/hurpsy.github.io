@@ -137,5 +137,8 @@ in the HurPsyDesign interface.
 - [Tutorial 5: Building the experiment pattern - Part 2](tutorial-5-experiment-pattern-2.md),
   continuing to build the experiment pattern by duplicating and modifying
   more trial patterns.
+- [Tutorial 6: Building the experiment pattern - Part 3](tutorial-6-experiment-pattern-3.md),
+  continuing to build the experiment pattern with key response definitions
+  and specifying accepted and correct keys in trial patterns.
 
 More pages, each on one idea above, are on their way.
